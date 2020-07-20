@@ -1,0 +1,1 @@
+import {fireBaseExternalObj} from './modules/firebase deps/firebase-external-deps'
