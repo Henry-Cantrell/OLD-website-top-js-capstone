@@ -1,0 +1,67 @@
+/*Sign-in/up styling section start*/
+#signUpBox {
+  width: 500px;
+  height: 500px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  top: 100px;
+  left: 100px;
+  background-color: white;
+  margin-bottom: 100px;
+}
+
+#checkBox {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  top: 0%;
+  margin-top: 10px;
+  left: 60%;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  background-color: white;
+}
+
+#signInBox {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  top: 0%;
+  margin-top: 10px;
+  left: 30%;
+  background-color: white;
+}
+
+#formBoxSignIn {
+  width: 300px;
+  height: 350px;
+  margin-left: 100px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  text-align: center;
+}
+
+#signUpTxt {
+  margin-left: 175px;
+}
+
+#signInTxt {
+  margin-left: 175px;
+}
+
+#formBoxSignUp {
+  width: 300px;
+  height: 350px;
+  margin-left: 100px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  text-align: center;
+}
+/*Sign-in/up styling section end*/
