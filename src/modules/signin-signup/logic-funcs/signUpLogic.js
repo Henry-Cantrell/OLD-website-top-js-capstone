@@ -9,11 +9,12 @@ export let authSignUp = () => {
        const email = suForm['inputEmailSignUp'].value
        const password = suForm['inputPassWordSignUp'].value
 
-       fireBaseExternalObj.auth.createUserWithEmailAndPassword(email, password).then(cred => {
-           console.log(cred.user)
-       })
+       fireBaseExternalObj.auth.createUserWithEmailAndPassword(email, password)
+
        suForm.reset()
    })
 }
 
 //auto login on signup FYI
+//add then to createUser async for content stuff
+//add method to handle err throw
