@@ -3,5 +3,5 @@ export let uniqueUserDataObj = (cui) => {
         cui: cui
     }
 
-    return {dataObj}
+    return {creduserid}
 }
