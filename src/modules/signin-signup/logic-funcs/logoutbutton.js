@@ -5,4 +5,4 @@ export let loButtonAel = (e) => {
    
     fireBaseExternalObj.auth.signOut
 }
- //add .then to handle signout event with content change later
+//add .then to handle signout event with content change back to login/signup page

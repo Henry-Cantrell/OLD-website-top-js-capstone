@@ -15,7 +15,7 @@ var firebaseConfig = {
 firebase.initializeApp(firebaseConfig);
 
 export const fireBaseExternalObj = {
-  dataBase: firebase.database(),
+  dataBase: firebase.firestore(),
   auth: firebase.auth(),
 };
 
